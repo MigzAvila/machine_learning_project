@@ -56,7 +56,7 @@ If you prefer not to use `uv`, you can install dependencies via `pip`:
 
 The project workflow consists of two main parts: data scraping/collection, and the data pipeline/model training.
 
-### Part 1: Scraping Daily Air Quality Data (Optional)
+### Part 1: Scraping Daily Air Quality Data (Optional, done with github action)
 The script [fetch_data.py](file:///home/migzavila/Downloads/SemII/ML/big_data_final_project/scripts/fetch_data.py) queries the World Air Quality Index (WAQI) API for stations in Latin America, approximates local population density and proximity to industrial areas using OpenStreetMap API (Overpass/Nominatim), and dumps a CSV into `daily_updates/`.
 
 1. **Get a WAQI Token:**
